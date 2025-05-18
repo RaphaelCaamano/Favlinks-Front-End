@@ -1,6 +1,8 @@
 const express = require('express') //importing the express function from the express
 const app = express() // we're setting a new variable called app to be an express
 
+const db = require('./queries')
+
 const port = 3000 // defining the port we want our app to run on
 
 // add some middleware to allow us to work with JSON data
