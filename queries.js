@@ -12,3 +12,8 @@ const pool = new Pool({
     password: process.env.DB_PASSWORD, 
     port: process.env.DB_HOST  
 })
+
+const getFavLinks = (req, res) => {
+    // use pg to get our data from the database and return it to the user
+    
+}
