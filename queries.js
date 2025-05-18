@@ -15,5 +15,18 @@ const pool = new Pool({
 
 const getFavLinks = (req, res) => {
     // use pg to get our data from the database and return it to the user
-    
+    pool.query('SELECT * FROM favlinks', (error, result)=>{ 
+        if (error) { 
+             // do something with the error!
+        } else { 
+            console.log(result) 
+            res.status(200).json(result.rows) 
+        }
+        
+    })
+}
+
+// return functions as exports to call in our index page 
+module.exports = { 
+    getFavLinks 
 }
