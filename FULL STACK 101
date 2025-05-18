@@ -2,9 +2,9 @@
 
 - FRONT END (CLIENT SIDE) 
      - Visual aspects of our web application (HTML / CSS / JS) 
-     - REACT 
+     - React
      - User interfaces that were interactive 
-
+     - Making requests to servers / APIs
 
 
 - BACK END (SERVER SIDE) 
@@ -12,6 +12,8 @@
     - HTTP Requests / Responses 
     - Handling inbound requests, sending responses to clients
         - establishing data processing with the database
+    - CRUD API Routes
+        - Create, Read, Update, Delete operations involving data
 
 
 - DATABASES 
