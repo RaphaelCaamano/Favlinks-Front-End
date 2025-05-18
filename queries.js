@@ -18,6 +18,8 @@ const getFavLinks = (req, res) => {
     pool.query('SELECT * FROM favlinks', (error, result)=>{ 
         if (error) { 
              // do something with the error!
+             // res.status(400).json("Something went wrong")
+            throw error
         } else { 
             console.log(result) 
             res.status(200).json(result.rows) 
