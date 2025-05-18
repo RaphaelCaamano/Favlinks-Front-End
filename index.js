@@ -33,3 +33,7 @@ app.get("/favlinks", (req, res)>(-
 app.put("/favlink", (req, res)=>{ 
     res.send("Updating something!") 
 })
+
+// API function 4 - delete something 
+app.delete("/favlink", (req, res)=>{ 
+})
