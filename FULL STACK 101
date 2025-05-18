@@ -1,0 +1,19 @@
+// FULL STACK 101 
+
+- FRONT END (CLIENT SIDE) 
+     - Visual aspects of our web application (HTML / CSS / JS) 
+     - REACT 
+     - User interfaces that were interactive 
+
+
+
+- BACK END (SERVER SIDE) 
+    - APIS (Application Programming Interfaces) 
+    - HTTP Requests / Responses 
+    - Handling inbound requests, sending responses to clients
+        - establishing data processing with the database
+
+
+- DATABASES 
+    - Save data persistently through sessions 
+    - Relational (SQL) databases and Non-Relational (No-SQL) databases 
