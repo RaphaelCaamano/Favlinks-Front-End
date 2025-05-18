@@ -26,7 +26,7 @@ app.post("/favlink", (req, res){-
 }) 
 
 // API function 2 read something 
-app.get("/favlinks", (req, res)>(-
+app.get("/favlinks", db.getFavLinks)                         
 }) 
 
 // API function 3 - update something 
