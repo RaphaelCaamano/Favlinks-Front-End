@@ -22,3 +22,12 @@ let favLinks = [
 // API function 1 create something 
 app.post("/favlink", (req, res){-
 }) 
+
+// API function 2 read something 
+app.get("/favlinks", (req, res)>(-
+}) 
+
+// API function 3 - update something 
+app.put("/favlink", (req, res)=>{ 
+    res.send("Updating something!") 
+})
